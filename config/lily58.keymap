@@ -47,7 +47,7 @@
 &trans      &trans        &trans        &trans            &trans           &trans                                        &trans     &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans    &trans
 &kp GRAVE   &kp EXCL      &kp AT        &kp HASH          &kp DOLLAR       &kp PRCNT                                     &kp CARET  &kp AMPS           &kp KP_MULTIPLY    &kp LPAR          &kp RPAR  &kp TILDE
 &trans      &trans        &trans        &msc MOVE_X(-20)  &msc MOVE_Y(20)  &msc MOVE_Y(-20)  &msc MOVE_X(20)    &trans   &trans     &kp MINUS          &kp KP_PLUS        &kp LBRC          &kp RBRC  &kp PIPE
-                                        &trans            &trans           &trans            &kp RET            &kp RET  &trans     &trans             &trans
+                                        &trans            &trans           &trans            &kp RET            &kp RET  &trans     &kp RIGHT_ALT      &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -84,16 +84,6 @@
         };
 
         Four {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_5 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
