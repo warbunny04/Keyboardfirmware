@@ -85,11 +85,11 @@
 
         Four {
             bindings = <
-&trans        &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp CAPSLOCK  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&none         &none  &none  &none  &none  &none                            &none  &none  &none  &none  &none  &none
+&none         &none  &none  &none  &none  &none                            &none  &none  &none  &none  &none  &none
+&none         &none  &none  &none  &none  &none                            &none  &none  &none  &none  &none  &none
+&kp CAPSLOCK  &none  &none  &none  &none  &none  &none              &none  &none  &none  &none  &none  &none  &none
+                            &none  &none  &none  &kp LC(LA(DEL))    &none  &none  &none  &none
             >;
         };
     };
